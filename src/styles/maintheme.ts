@@ -1,4 +1,5 @@
 import { DefaultTheme } from "styled-components";
+import "@fontsource/roboto";
 
 const mainTheme: DefaultTheme = {
   colours: {
@@ -6,7 +7,7 @@ const mainTheme: DefaultTheme = {
     background: "#c2e7da",
   },
   typography: {
-    family: '"Open Sans", sans-serif',
+    family: "roboto",
     size: "1rem",
   },
 };
